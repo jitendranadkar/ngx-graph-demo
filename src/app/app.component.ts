@@ -135,7 +135,7 @@ export class AppComponent implements OnInit {
     this.drawer.toggle();
     this.center$.next(true);
   }
-
+  // Added for testing purpose
   onCenter(){
     this.center$.next(true);
   }
